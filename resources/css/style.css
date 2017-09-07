@@ -46,7 +46,7 @@ div {
   border: 1px solid white;
 }
 /* mission section */
-.mission {
+#mission {
   display: flex;
   position: relative;
   padding-top: 69px;
@@ -66,8 +66,9 @@ div {
 
 /* end mission section*/
 /* featured tea section*/
-.featured {
+#featured {
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .image img {
@@ -91,3 +92,33 @@ div {
   margin: 10px 15px;
 }
 /* end feautred tea section*/
+/* locations section */
+
+#locations {
+
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  margin: auto;
+
+}
+
+.box {
+  display: inline-flex;
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  margin: 15px 20px;
+  opacity: 1;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.box h3, .box h4 {
+  margin: 15px;
+  }
+
+.box h4 {
+  font-weight: normal;
+  }
