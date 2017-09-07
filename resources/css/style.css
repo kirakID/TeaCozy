@@ -7,6 +7,7 @@ body {
   opacity: 0.9;
   text-align: center;
 }
+
 /* header code */
 header {
   display: flex;
@@ -41,10 +42,7 @@ a {
   color: seashell;
 }
 /* end header */
-/* temp code */
-div {
-  border: 1px solid white;
-}
+
 /* mission section */
 #mission {
   display: flex;
@@ -63,8 +61,8 @@ div {
   width: 100%;
   background-color: black;
 }
-
 /* end mission section*/
+
 /* featured tea section*/
 #featured {
   padding-top: 50px;
@@ -92,15 +90,13 @@ div {
   margin: 10px 15px;
 }
 /* end feautred tea section*/
+
 /* locations section */
-
 #locations {
-
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
   height: 500px;
   width: 1200px;
   margin: auto;
-
 }
 
 .box {
@@ -112,7 +108,6 @@ div {
   opacity: 1;
   flex-direction: column;
   justify-content: center;
-
 }
 
 .box h3, .box h4 {
@@ -122,3 +117,15 @@ div {
 .box h4 {
   font-weight: normal;
   }
+
+  /* end location section */
+
+/* footer section */
+#contact {
+  height: 200px;
+}
+#copyright {
+  text-align: left;
+  padding-left: 20px;
+}
+/* end footer section */
